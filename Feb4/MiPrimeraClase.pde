@@ -44,9 +44,9 @@ class MonoConSombrero{
   }
   
   float conAltura(float t_){
-  float altura = sqrt(sq(t_)-sq(t_/2));
-  return(altura);
-}  
+    float altura = sqrt(sq(t_)-sq(t_/2));
+    return(altura);
+  }  
 }
 
 MonoConSombrero uno; 
